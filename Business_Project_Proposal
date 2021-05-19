@@ -1,0 +1,78 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Business Project Proposal\n",
+    "<hr>\n",
+    "<hr>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "   Now, more than ever, humans are waking up to the importance of caring for our planet and its climate. Trends in sustainability are growing accross the board as we all realize that our actions have potentially dire consequences to our only home. While it important - noble even - for individuals to try and make more sustaibalbe choices such as lowering usage of single-use plastics, or seperating recycling appropriately, it is arguably more important for people at the corporate level. That is why we hope to show General Motors why switching their prodution from gas vehicles to electric vehicles is so important. Using data obtained from the U.S. Department of Energy's Alternative Feuls Data Center, we will illustrate the growing trends in electric car purchases. Couple this with the data showing depletion rates of our fossil fuels will give a finite timetable this conversion has to happen by.\n",
+    "    \n",
+    "   Climate change and depleting fuels are no secret. The real value we strive to bring is in the optimization of this inevitable change. What are the most common types of cars on the road? Are there elctric conterparts for this vehicle? What areas are experiencing the highest purchase increase in alternative feul cars? What percentage of these areas are still non-electric, showing how much room we have to capitalize on this demand? The switch away from fossil fuels will have to happen eventually. By choosing to make it your primary focus now, General Motors can not only capitalize on trends cornering key markets, but they can create a reputation as a company willing to make difficult changes for the better of all the world. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "\n",
+    "\n",
+    "\n",
+    "## Design / Tools\n",
+    "<hr>\n",
+    "Data will be pulled mainly from https://afdc.energy.gov/data/. A government data center containing a variety of datasets about electric cars, and charging centers aggregated by state. Additional information will be aquired about all cars on the road, to gauge percentage of electric cars to non-electric, and also percentage of GM cars for each grouped set.\n",
+    "\n",
+    "Some information, available as CSVs will be imported directly into Google Sheets for cleaning and analyzing. Additional data obtained through APIs will be collected through python, then exported to Google Sheets for merging and further analysis. \n",
+    "\n",
+    "A combination of Google Sheets and Tableau will be used to visualize the important insights and trends derived from EDA.\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## MVP Goal\n",
+    "<hr>\n",
+    "\n",
+    "A succesful MVP will have all of the data I plan to visualize in one place, cleaned and ready to use. Beyond that, initial insights will be to analyze (and graph) car make and model popularity, and compare that to available models of electric vehicles to see what model of car is potentially missing from the electric market. Also visualizing state's saturation of electic cars to see where the market is showing the greatest demand for electric vehicles. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
